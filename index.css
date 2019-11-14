@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+  }
+  
+body {
+    font-family: 'Roboto', sans-serif;
+}
+  
+button, label {
+    font-size: 24px;
+}
+
+/* Added some button formatting */
+button {
+    width: 250px;
+    color: white;
+    background-color: black;
+}
+
+button, select {
+    height: 60px;
+    font-style: bold;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    cursor: pointer;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+img {
+    display: block;
+    max-width: 800px;
+    /* align: center; */
+    margin: auto;
+}
+
+select {
+    width: 70px;
+    color: black;
+    background-color: white;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+  
+.hidden {
+    display: none;
+}
+
+@media screen and (max-width: 500px) {
+    img {
+        width: 100%;
+    }
+}
