@@ -19,7 +19,7 @@ button {
     background-color: black;
 }
 
-button, select {
+button, input {
     height: 60px;
     font-style: bold;
     font-size: 24px;
@@ -41,8 +41,8 @@ img {
     margin: auto;
 }
 
-select {
-    width: 70px;
+input {
+    width: 200px;
     color: black;
     background-color: white;
 }
