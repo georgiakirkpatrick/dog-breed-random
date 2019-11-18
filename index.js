@@ -17,7 +17,7 @@ function displayADog(responseJson) {
             <h2>For two-word searches, try this format: Retriever/Golden</h2>`)
         }
 
-        if (responseJson.message === "Breed not found (sub breed does not exist)") {
+        else if (responseJson.message === "Breed not found (sub breed does not exist)") {
         // Message to user if the sub-breed is not found.
             console.log('Problem with sub-breed entry')
             $('.results').append(`<h2>Sorry, we don't have any photos of that sub-breed. Please
@@ -26,8 +26,9 @@ function displayADog(responseJson) {
 
         else {console.log('Unknown error')
         // Message to user if they encounter an error other than the two above.
-            $('.results').append(`<h2>Sorry, that didn't work.  Either we don't have any photos 
-            of that breed or there's something else going on.  Please try again.</h2>`)
+            $('.results').append(`<h2>Sorry, that didn't work.</h2>
+            <h2>Either we don't have any photos of that breed or there's something else going on.  
+            Please try again.</h2>`)
         }
     }
 
