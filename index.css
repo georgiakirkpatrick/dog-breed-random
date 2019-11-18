@@ -47,6 +47,11 @@ input {
     background-color: white;
 }
 
+label {
+    display: block;
+    font-size: 2em;
+}
+
 .container {
     max-width: 700px;
     margin: 0 auto;

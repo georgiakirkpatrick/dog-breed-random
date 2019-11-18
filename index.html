@@ -1,29 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- <title>Dog API Example</title> -->
-    <title>Georgia's Dog Supply</title>
-    <link rel="shortcut icon" href="">
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
-    <div class="container">
-        <h1>Georgia's Dog Supply: Dog By Breed</h1>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Georgia's Dog Supply</title>
+        <link rel="shortcut icon" href="">
+        <link rel="stylesheet" href="index.css">
+    </head>
 
-        <form>
-            <label for="dog-breed"> Enter a dog breed: </label>
-            <input type = "text" name = "dog-breed" id = "dog-breed" placeholder = "chihuahua" required>
-        
-            <button type="submit" class = "js-gimme-a-dog"> Gimme a dog! </button>
-        </form>
-        <section class="results">
-          <!-- <img class="results-img" alt="placeholder"> -->
-        </section>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-    <script src="index.js"></script>
-</body>
+    <body>
+        <div class="container">
+            <h1>Georgia's Dog Supply</h1>
+
+            <form>
+                <label for="dog-breed"> Enter your favorite dogbreed: </label>
+                <input type = "text" name = "dog-breed" id = "dog-breed" placeholder = "chihuahua" required>
+                <button type="submit" class = "js-gimme-a-dog"> Gimme a dog! </button>
+            </form>
+
+            <section class="results"></section>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.js" 
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" 
+            crossorigin="anonymous"></script>
+        <script src="index.js"></script>
+    </body>
 </html>
